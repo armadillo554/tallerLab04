@@ -17,6 +17,14 @@ public class VentanaSelecciones extends Ventana implements ActionListener {
         etiquetaRankingFIFA=this.generarEtiqueta("Ranking FIFA: ", 30, 130, 110, 20);
         jugadores=this.generarBoton("Players", 100, 300, 125, 30);
         salir=this.generarBoton("Exit", 400, 300, 110, 30 );
+        seleccion=new JComboBox();
+        seleccion.setBounds(150,40,100,25);
+        seleccion.addItem("Autralia");
+        seleccion.addItem("Cameroon");
+        seleccion.addItem("Chile");
+        seleccion.addItem("Germany");
+        seleccion.setSelectedIndex(0);
+        add(seleccion);
 
         jugadores.addActionListener(this);
         salir.addActionListener(this);
