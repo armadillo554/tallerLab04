@@ -58,5 +58,11 @@ public abstract class Ventana extends JFrame {
 
         return comboBox;
     }
+//    protected JLabel generarEtiqueta (String rutaImagen, int x, int y, int ancho, int largo) {
+//        ImageIcon icono=createImage(rutaImagen,250);
+//        JLabel etiqueta = new JLabel(icono);
+//        this.add(etiqueta);
+//        return etiqueta;
+//    }
 }
 

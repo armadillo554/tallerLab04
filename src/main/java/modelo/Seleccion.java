@@ -1,10 +1,12 @@
 package modelo;
 
+import java.util.ArrayList;
+
 public class Seleccion {
 
 	private String nombre;
 	private int rankingFIFA;
-	private Jugador jugador;
+	private Jugador jugadores;
 
 	public String getNombre() {
 		return nombre;
@@ -14,12 +16,19 @@ public class Seleccion {
 		this.nombre = nombre;
 	}
 
-	public Jugador getJugador() {
-		return jugador;
+	public int getRankingFIFA() {
+		return rankingFIFA;
 	}
 
-	public void setJugador(Jugador jugador) {
-		this.jugador = jugador;
+	public void setRankingFIFA(int rankingFIFA) {
+		this.rankingFIFA = rankingFIFA;
 	}
 
+	public Jugador getJugadores() {
+		return jugadores;
+	}
+
+	public void setJugadores(Jugador jugadores) {
+		this.jugadores = jugadores;
+	}
 }

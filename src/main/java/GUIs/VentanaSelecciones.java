@@ -7,10 +7,10 @@ import java.awt.event.ActionListener;
 public class VentanaSelecciones extends Ventana implements ActionListener {
     private JLabel etiquetaElegirSeleccion;
     private JLabel etiquetaRankingFIFA;
+    private JLabel iconoSeleccion;
     private JButton jugadores;
     private JButton salir;
     private JComboBox seleccion;
-    private ImageIcon iconoSeleccion;
 
     public VentanaSelecciones(){
         etiquetaElegirSeleccion=this.generarEtiqueta("Chose team: ", 30, 40, 75, 20);
